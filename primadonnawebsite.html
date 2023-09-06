@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prima Donna - Joias e Relógios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+            border-bottom: 1px solid #000000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            padding: 10px 20px;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            border: 1px solid #000000;
+            margin: 10px;
+            padding: 10px;
+            max-width: 300px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prima Donna</h1>
+        <p>Sua loja de joias e relógios</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Joias</a>
+        <a href="#">Relógios</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="container">
+        <h2>Produtos em Destaque</h2>
+        <div class="products">
+            <div class="product">
+                <img src="joia1.jpg" alt="Joia 1">
+                <h3>Joia 1</h3>
+                <p>Descrição da joia 1.</p>
+                <p>Preço: R$100,00</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product">
+                <img src="relogio1.jpg" alt="Relógio 1">
+                <h3>Relógio 1</h3>
+                <p>Descrição do relógio 1.</p>
+                <p>Preço: R$200,00</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Entre em contato conosco: <a href="tel:930937095">930937095</a></p>
+        <p>Siga-nos no <a href="https://www.instagram.com/primadonnajewlery/">Instagram</a></p>
+    </footer>
+</body>
+</html>
